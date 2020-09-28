@@ -8,7 +8,11 @@ Twelvety is a pre-configured Eleventy starter project built to be fast. It inclu
 - CSS pipeline using Sass, PostCSS and CleanCSS
 - JS pipeline using Browserify, Babel and Uglify
 - Page-specific CSS and JS
-- Inline critical CSS and defer non-critical CSS
+- Inline critical CSS and defer non-critical CSS 
+  :warn: (uses package named `critical` which 
+  depends on puppeteer -> chromium -- which 
+  requires a 200+ mb install of chromium on every 
+  run of `npm install` (initial setup))
 - Minified HTML, CSS and JS
 - Responsive picture shortcode **with WebP support**
 - Content-hash of assets
